@@ -1,13 +1,17 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
- const Page =(
-   <div>
-   <nav><h1>Tech-Mommy</h1>
-  <ul><li>Info</li><li>About</li><li>Contact</li></ul>
-  </nav>
+import  style  from "./index.css";
+import Header from "./header";
+import MainContent from "./mainContent";
+ import Footer from "./footer";
+ function App (){
+  return(
+      <div>
+<Header />
+<MainContent />
+<Footer /> 
 </div>
- )
-ReactDOM.render(
-Page, 
-document.getElementById ("root")
-)
+  )
+ }
+
+ReactDOM.render(<App />, document.getElementById ("root"))
