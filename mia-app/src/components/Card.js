@@ -1,16 +1,22 @@
 import React from "react";
-export default function Card(){
+export default function Card({img, score, country, city, price}){
     return(
-        <div className="card">
-            <img src="https://www.travel365.it/foto/seagull-flies-by-rialto-bridge-popular-landmark-venice-italy.jpg"/>
-            <div className="card-stats">
-                <img src="https://www.svgrepo.com/show/172818/star-outline.svg"/>
-             <span>9.0</span>
-             <span>(6)</span>
-             <span>IT</span>
+        <div className= "card-container">
+            <div className="card-img-container">
+             <img className="card-img" src={img} alt="img"/>
             </div>
-            <p>visit Venice</p>
-            <p>da 50€</p>
-        </div>
+            
+            <div className="card-stats">
+                <img className="star" src="https://icon-library.com/images/star-icon-svg/star-icon-svg-11.jpg" alt="img"/>
+             <span>{score}</span>
+             
+             <span>{country}</span>
+            </div>
+            <hr/>
+            <div className="card-p">
+               <p>{city}</p>
+               <p>{price}</p>  
+            </div>
+            </div>
     )
 }
