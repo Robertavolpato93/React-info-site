@@ -5,7 +5,13 @@ const data = [
     score: "9.0",
     country: "IT",
     city: "visit Venice",
-    price: "da 50€",
+    
+    price:{
+        value:60
+    },
+    openSpots:0,
+     
+    
   },
 
   {
@@ -14,7 +20,11 @@ const data = [
     score: "10",
     country: "PL",
     city: " visit Cracow",
-    price: "da 30€",
+    price:{
+        value:30
+    },
+    openSpots:3,
+
   },
 
   {
@@ -23,7 +33,11 @@ const data = [
     score: "9.5",
     country: "HUN",
     city: "visit Budapest",
-    price: "da 35€",
+    
+    price:{
+        value:35
+    },
+    openSpots:6,
   },
 
   {
@@ -32,7 +46,10 @@ const data = [
     score: "9.0",
     country: "D",
     city: "visit Lindau",
-    price: "da 55€",
+    price:{
+        value:55
+    },
+    openSpots:9,
   },
 ];
 export default data;
