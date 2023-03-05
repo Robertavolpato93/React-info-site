@@ -17,10 +17,10 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-     
+       <Hero />
+      
       <div className="card-wrap">{cards}</div>
-      <Form />
+     <Form />
     </div>
    
   );
