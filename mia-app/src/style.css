@@ -130,14 +130,30 @@ font-size: 25px;
     margin-left: 10px;
     display: flex;
     flex-flow: column;
-     box-shadow: 2px 2px 15px 10px rgb(188, 150, 150);
+     box-shadow: 2px 2px 15px 10px rgb(5, 97, 34);
      border-radius: 4px;
      align-items: center;
-     
      }
      .h3-form{
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     color: rgb(4, 3, 59);
+     color: rgb(3, 59, 21);
      margin-left: 10px;
-     
+     }
+     button{
+      width: 200px;
+      height: 30px;
+      background-color: rgb(87, 226, 87);
+      border-radius: 10px;
+      border: none;
+      margin-bottom: 20px;
+      cursor: pointer;
+      box-shadow: 2px 2px 10px 5px rgb(3, 74, 31);
+     }
+     button:hover{
+      background-color: rgb(4, 98, 30);
+      color: white;
+     }
+     .form-img{
+     width: 300px;
+     height: 200px;
      }
