@@ -19,7 +19,7 @@ function getPlaceImage(){
         <br/>
         <input type="text" placeholder="Mare, montagna, città etc..." />
         <br/>
-        <button  onclick={getPlaceImage} className="form-button" >TROVA</button>
+        <button  onClick={getPlaceImage} className="form-button" >TROVA</button>
        <img  className="form-img" src={PlaceImage} />
         </div>
         
