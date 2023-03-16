@@ -20,8 +20,9 @@ export default function Card(props){
             </div>
             <hr/>
             <div className="card-p">
-               <p >{props.city}</p>
-               <p> da {props.price.value} €</p>  
+               <p >{props.city} </p>
+               <p className="card-description"> Volo + 3 notti B&B + ingresso nelle principali attrazioni</p>
+          <p> da {props.price.value} €</p>  
             </div>
             </div>
     )

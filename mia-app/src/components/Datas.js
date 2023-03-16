@@ -109,7 +109,7 @@
     },
     {
         "id":"16",
-       "url" :"https://www.pourfemme.it/wp-content/uploads/2015/04/Castelli-irlandesi.jpg",
+       "url" :"https://www.ottoemezzoviaggi.it/images/offerte/home/1446053805.jpg",
         "placeName":"Irlanda",
         "continent":"Europa"
 
