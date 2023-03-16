@@ -15,4 +15,6 @@ L'utente viene inizialmente  coinvolto ed invitato a lasciarsi ispirare da una c
 Successivamente gli vengono proposti dei pacchetti pronti per viaggi brevi.
 Infine, l'utente, ha la possibilita' di registrarsi alla piattaforma e indicare le proprie preferenze compilando un form.
 
+La completa responsivita' della piattaforma e' stata gestita tramite media query, utilizzando l'approccio mobile-first.
+
 PROGETTO ANCORA IN VIA DI SVILUPPO.
